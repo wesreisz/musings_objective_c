@@ -10,6 +10,7 @@
 		61F0D15D16ECD5B6007D4122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F0D15C16ECD5B6007D4122 /* Foundation.framework */; };
 		61F0D16016ECD5B6007D4122 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F0D15F16ECD5B6007D4122 /* main.m */; };
 		61F0D16416ECD5B6007D4122 /* PragProgHmwk1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 61F0D16316ECD5B6007D4122 /* PragProgHmwk1.1 */; };
+		61F0D17716ECF516007D4122 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F0D17616ECF516007D4122 /* Movie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		61F0D15F16ECD5B6007D4122 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		61F0D16216ECD5B6007D4122 /* PragProgHmwk1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PragProgHmwk1-Prefix.pch"; sourceTree = "<group>"; };
 		61F0D16316ECD5B6007D4122 /* PragProgHmwk1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PragProgHmwk1.1; sourceTree = "<group>"; };
+		61F0D17516ECF516007D4122 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		61F0D17616ECF516007D4122 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 		61F0D15E16ECD5B6007D4122 /* PragProgHmwk1 */ = {
 			isa = PBXGroup;
 			children = (
+				61F0D17516ECF516007D4122 /* Movie.h */,
+				61F0D17616ECF516007D4122 /* Movie.m */,
 				61F0D15F16ECD5B6007D4122 /* main.m */,
 				61F0D16316ECD5B6007D4122 /* PragProgHmwk1.1 */,
 				61F0D16116ECD5B6007D4122 /* Supporting Files */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61F0D16016ECD5B6007D4122 /* main.m in Sources */,
+				61F0D17716ECF516007D4122 /* Movie.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +242,7 @@
 				61F0D16916ECD5B6007D4122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
