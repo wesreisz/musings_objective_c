@@ -32,6 +32,8 @@ int main(int argc, const char * argv[])
         Movie *m3 = [[Movie alloc] initWithTitle:@"Simpsons the Movie"];
         NSLog(@"%@",m3.description);
         
+        NSLog(@"");
+        [m3 play];
     }
     return 0;
 }

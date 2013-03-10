@@ -23,6 +23,9 @@
            andDate:(NSDate *)theDate
          andRating:(int) theRating;
 
+
+-(void)play;
+
 @end
 
 

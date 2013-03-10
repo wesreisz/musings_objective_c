@@ -42,4 +42,8 @@
     self.movieTitle, self.rating, self.releaseDate.description];
 }
 
+-(void)play{
+    NSLog(@"Playing %@",self);
+}
+
 @end
